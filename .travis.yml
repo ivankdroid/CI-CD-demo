@@ -26,4 +26,4 @@ matrix:
           - BRANCH_NAME=$TRAVIS_BRANCH
           - BUILD_NUMBER=$TRAVIS_BUILD_NUMBER
       script:
-          - fastlane android buildApp
+          - ./gradlew build
